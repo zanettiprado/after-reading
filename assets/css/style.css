@@ -1,12 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-</style>
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Carter+One&family=Lato:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-body {
-    font-family: assistant, sans-serif;
-    font-weight: 900;
-}
+
+  * {
+      margin: 0;
+      padding: 0;
+      border: none;
+  }
+
+  body {
+      font-family: assistant, sans-serif;
+      color: black
+  }
+
+  /* logo and heading style */
+
+  h1 {
+      text-transform: uppercase;
+      letter-spacing: -1px;
+  }
+  #logo, #menu {
+    font-family: 'Carter one', sans-serif;
+    color: rgb(80, 115, 222);
+
+  }
+  #logo {
+      float: left;
+      font-size: 230%;
+  }
+
+  #menu {
+    font-size: 120%;
+  }
+  #menu li {
+      float: right;
+      list-style-type: none;
+      margin: 25px;
+  }
