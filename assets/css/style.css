@@ -55,104 +55,137 @@
   }
 
   .active {
-      border-bottom: 1px solid #142464;
+      border-bottom: 2px solid #142464;
   }
 
   /*main image*/
 
   #main-image {
-   height: 800px;
-   width: 100%;
-   background-image: url('../images/front-view-pile-books-with-copy-space.jpg');
-   background-repeat: no-repeat;
-   background-size: 100%;
-   clear: both;
+      height: 800px;
+      width: 100%;
+      background-image: url('../images/front-view-pile-books-with-copy-space.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      clear: both;
   }
-#cover-text, #cover-text h2 {
-    color: white;
-}
-#cover text > h3 {
-    font-size: smaller;
-}
-#cover-text {
-    font-size: 200%;
-    font-family: Assistant, sans-serif;
-    text-transform: uppercase;
-    
-    width: 390px;
-    height: 250px;
-    padding-top: 20px;
-    padding-left: 50px;
 
-    background-color: hsl(225, 24%, 74%, 0.9);
-    
-    bottom: 70px;
-    right: 40px;
+  #cover-text,
+  #cover-text h2 {
+      color: white;
+  }
 
-    position: absolute;
-}
+  #cover text>h3 {
+      font-size: smaller;
+  }
 
-#popular-books {
-    line-height: 50px;
-    column-count: 3;
-    column-gap: 50px;
-    margin: 50px;
-}
+  #cover-text {
+      font-size: 200%;
+      font-family: Assistant, sans-serif;
+      text-transform: uppercase;
 
-#popular-books > img {
-    width: 100%;
-}
-/*suggestions*/
+      width: 390px;
+      height: 250px;
+      padding-top: 20px;
+      padding-left: 50px;
 
-#books-available {
-    width: 100%;
-    clear: both;
-    text-align: center;
-    background-color: #142464;
-    color: #fff;
-    text-transform: uppercase;
-    
-}
-#suggested-books {
-    clear: both;
-    column-count: 3;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 2px;
-    row-gap: 5px;
-    column-gap: 5px;
-    
-}
-#suggested-books > img {
-    float: left;
-    width: 300px;
-    height: 450px;
-    
+      background-color: hsl(225, 24%, 74%, 0.9);
 
-  
-}
+      bottom: 70px;
+      right: 40px;
 
-/*footer*/
-footer {
-    height: 120px;
-    background-color: rgb(20, 36, 100, 0.9);
-       
-}
-footer h3 {
-    color: hsl(225, 24%, 74%, 0.9);
-    text-align: center;
-}
-.social-network {
-    text-align: center;
+      position: absolute;
+  }
 
-}
-.social-network > li{
-    display: inline;
-}
-.social-network i {
-    color: hsl(225, 24%, 74%, 0.9);
-    font-size: 180%;
-    margin: 2,5%;
-    padding: 2%;
-    letter-spacing: 5px;
-}
+  /* reasons to join us section */
+  #reasons {
+      height: 800px;
+  }
+
+  #left-side {
+      padding-top: 40px;
+      width: 50%;
+      float: left;
+      background-color: aqua;
+  }
+
+  #right-side {
+      padding-top: 40px;
+      width: 50%;
+      float: right;
+      background-color: brown;
+  }
+
+  #right-image {
+      padding-top: 40px;
+      width: 50%;
+      float: right;
+      background-color: darkorange;
+  }
+
+  #left-image {
+      padding-top: 40px;
+      width: 50%;
+      float: left;
+      background-color: darkolivegreen;
+  }
+
+  /*suggestions*/
+
+  #books-available {
+      width: 100%;
+      clear: both;
+      text-align: center;
+      background-color: #142464;
+      color: #fff;
+      text-transform: uppercase;
+
+  }
+
+  #suggested-books {
+      clear: both;
+      column-count: 3;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 2px;
+      row-gap: 5px;
+      column-gap: 5px;
+
+  }
+
+  #suggested-books>img {
+      float: left;
+      width: 300px;
+      height: 450px;
+
+
+
+  }
+
+  /*footer*/
+  footer {
+      height: 120px;
+      background-color: rgb(20, 36, 100, 0.9);
+
+  }
+
+  footer h3 {
+      color: hsl(225, 24%, 74%, 0.9);
+      text-align: center;
+  }
+
+  .social-network {
+      text-align: center;
+
+  }
+
+  .social-network>li {
+      display: inline;
+  }
+
+  .social-network i {
+      color: hsl(225, 24%, 74%, 0.9);
+      font-size: 180%;
+      margin: 2, 5%;
+      padding: 2%;
+      letter-spacing: 5px;
+  }
