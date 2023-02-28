@@ -21,6 +21,7 @@
   #logo, #menu {
     font-family: 'Carter one', sans-serif;
     color: rgb(80, 115, 222);
+    line-height: 100px;
 
   }
   #logo {
@@ -35,4 +36,16 @@
       float: right;
       list-style-type: none;
       margin: 25px;
+      line-height: 50%;
   }
+#menu a {
+    text-decoration: none;
+}
+#menu li a:hover {
+    margin: 1px;
+    padding: 5px;
+    background-color: #fff;
+}
+.active {
+    border-bottom: 1px solid teal;
+}
