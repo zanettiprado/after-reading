@@ -1,6 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Carter+One&family=Lato:wght@300&display=swap');
 
-
   * {
       margin: 0;
       padding: 0;
@@ -9,43 +8,61 @@
 
   body {
       font-family: assistant, sans-serif;
-      color: black
+      color: #142666
   }
 
-  /* logo and heading style */
+  /* logo, menu and heading style */
 
   h1 {
       text-transform: uppercase;
       letter-spacing: -1px;
+      padding-left: 20px;
   }
-  #logo, #menu {
-    font-family: 'Carter one', sans-serif;
-    color: rgb(80, 115, 222);
-    line-height: 100px;
+
+  #logo,
+  #menu {
+      font-family: 'Carter one', sans-serif;
+      color: #142666;
+      line-height: 65px;
 
   }
+
   #logo {
       float: left;
       font-size: 230%;
   }
 
   #menu {
-    font-size: 120%;
+      font-size: 120%;
   }
+
   #menu li {
       float: right;
       list-style-type: none;
       margin: 25px;
       line-height: 50%;
   }
-#menu a {
-    text-decoration: none;
-}
-#menu li a:hover {
-    margin: 1px;
-    padding: 5px;
-    background-color: #fff;
-}
-.active {
-    border-bottom: 1px solid teal;
-}
+
+  #menu a {
+      text-decoration: none;
+  }
+
+  #menu li a:hover {
+      margin: 1px;
+      padding: 5px;
+      background-color: #fff;
+  }
+
+  .active {
+      border-bottom: 1px solid #142666;
+  }
+
+  /*main image*/
+
+  #main-image {
+   height: 501px;
+   width: 100%;
+   background: url('../images/shelf\ book.png') center center;
+   clear: both;
+  }
+
