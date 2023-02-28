@@ -102,3 +102,28 @@
 #popular-books > img {
     width: 100%;
 }
+
+
+footer {
+    height: 120px;
+    background-color: rgb(20, 36, 100, 0.9);
+       
+}
+footer h3 {
+    color: hsl(225, 24%, 74%, 0.9);
+    text-align: center;
+}
+.social-network {
+    text-align: center;
+
+}
+.social-network > li{
+    display: inline;
+}
+.social-network i {
+    color: hsl(225, 24%, 74%, 0.9);
+    font-size: 180%;
+    margin: 2,5%;
+    padding: 2%;
+    letter-spacing: 5px;
+}
