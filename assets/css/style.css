@@ -103,10 +103,35 @@
     width: 100%;
 }
 /*suggestions*/
-#cover-picture  {
-    background-image: url('/assets/images/cover-recommentadions.png');
+
+#books-available {
+    width: 100%;
     clear: both;
+    text-align: center;
+    background-color: #142464;
+    color: #fff;
+    text-transform: uppercase;
+    
 }
+#suggested-books {
+    clear: both;
+    column-count: 3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 2px;
+    row-gap: 5px;
+    column-gap: 5px;
+    
+}
+#suggested-books > img {
+    float: left;
+    width: 300px;
+    height: 450px;
+    
+
+  
+}
+
 /*footer*/
 footer {
     height: 120px;
