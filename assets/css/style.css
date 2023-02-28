@@ -102,8 +102,12 @@
 #popular-books > img {
     width: 100%;
 }
-
-
+/*suggestions*/
+#cover-picture  {
+    background-image: url('/assets/images/cover-recommentadions.png');
+    clear: both;
+}
+/*footer*/
 footer {
     height: 120px;
     background-color: rgb(20, 36, 100, 0.9);
