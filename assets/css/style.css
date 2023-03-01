@@ -112,11 +112,13 @@
 
   }
 
-  #reasons p {
-      font-size: 24px;
+  .welcome {
+      font-size: 20px;
       font-style: italic;
   }
 
+  /*Goals and meetings information*/
+  
   #left-side {
       height: 400px;
       padding-top: 40px;
@@ -133,6 +135,14 @@
       width: 50%;
       float: left;
       background-color: darkolivegreen;
+  }
+  #left-image > img {
+    width: 100%;
+    height: 400px;
+    line-height: 200px;
+    text-align: center;
+    padding: 10px;
+    display: inline;
   }
 
   .goals-left-side {
@@ -167,9 +177,6 @@
       font-size: 16px;
   }
 
-  #right-image {
-      height: 400px;
-  }
 
   #right-image {
       height: 400px;
@@ -179,6 +186,9 @@
       background-color: darkorange;
   }
 
+#right-image > img {
+    width: 100%;
+}
 
   /*Donations*/
 
