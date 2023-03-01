@@ -68,6 +68,7 @@
       background-repeat: no-repeat;
       background-size: 100%;
       clear: both;
+      position: relative;
   }
 
   #cover-text,
@@ -120,7 +121,7 @@
 
   /*Goals and meetings information*/
   #information {
-      height: 1500px;
+      height: 1200px;
   }
 
   #left-side {
