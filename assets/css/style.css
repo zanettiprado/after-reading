@@ -120,7 +120,7 @@
 
   /*Goals and meetings information*/
   #information {
-    height: 1500px;
+      height: 1500px;
   }
 
   #left-side {
@@ -138,7 +138,10 @@
       float: right;
       font-size: 16px;
   }
-
+#right-side p {
+    font-size: 24px;
+    margin-left: 10px;
+}
   #left-image>img {
       width: 100%;
   }
@@ -148,13 +151,20 @@
   }
 
   .goals-left-side {
-      width: 80%;
-      float: right;
+      width: 90%;
+      list-style-type: none;
+      margin-left: 130px;
       line-height: 30px;
       clear: both;
       margin-bottom: 50px;
   }
-
+ .goals-left-side li {
+    list-style-type: square;
+    width: 90%;
+    margin-left: 25px;
+    font-weight: lighter;
+    font-size: 24px;
+ } 
   .directions-right-side {
       width: 80%;
       float: left;
@@ -168,6 +178,7 @@
       border-top: 1px solid #142464;
       width: 100%;
       margin: 10px 0;
+      
   }
 
   #right-image {
@@ -176,11 +187,27 @@
       width: 50%;
       float: right;
   }
-#left-image {
-    height: 400px;
-    width: 50%;
-    float: left;
-}
+
+  #left-image {
+      height: 400px;
+      width: 50%;
+      float: left;
+  }
+
+  #meetings {
+      width: 90%;
+      float: left;
+      margin-right: 40px;
+      margin-left: 10px;
+      line-height: 30px;
+      clear: both;
+      margin-bottom: 20px;
+  }
+  #information hr {
+    border-top: 1px solid #142464;
+    width: 90%;
+    margin: 10px 0;
+  }
 
   /*Donations*/
 
