@@ -4,6 +4,7 @@
       margin: 0;
       padding: 0;
       border: none;
+    
   }
 
   body {
@@ -28,6 +29,7 @@
   }
 
   #logo {
+      height: 90px;
       float: left;
       font-size: 230%;
       font-family: 'Carter one', sans-serif;
@@ -51,7 +53,6 @@
   #menu li a:hover {
       margin: 1px;
       padding: 5px;
-      background-color: #fff;
   }
 
   .active {
@@ -98,56 +99,86 @@
 
   /* reasons to join us section */
   #reasons {
-      height: 800px;
+      margin-top: 40px;
+      text-transform: none;
   }
-  #reasons h1 { 
-    height: 100px;
-    text-align: center;
-    margin-top: 40px;
-    text-transform: none;
-    font-size: 25px;
+
+  #reasons>h2 {
+      font-size: 36px;
+      text-align: center;
+      padding: 5px 150px 20px 150px;
+      text-transform: none;
+      margin-bottom: 50px;
+
+  }
+
+  #reasons p {
+      font-size: 24px;
+      font-style: italic;
   }
 
   #left-side {
+      height: 400px;
       padding-top: 40px;
       width: 50%;
       float: left;
       background-color: aqua;
+      font-size: 16px;
+
   }
 
-.goals-side {
-    width: 80%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-hr {
-    border-top: 1px solid #142464;
-    width: 100%;
-    margin: 10px 0;
+  #left-image {
+      height: 400px;
+      padding-top: 40px;
+      width: 50%;
+      float: left;
+      background-color: darkolivegreen;
+  }
 
-}
+  .goals-left-side {
+      width: 80%;
+      float: right;
+      line-height: 30px;
+      clear: both;
+      margin-bottom: 50px;
+  }
+
+  .directions-right-side {
+      width: 80%;
+      float: left;
+      margin-right: 40px;
+      line-height: 30px;
+      clear: both;
+      margin-bottom: 50px;
+  }
+
+  hr {
+      border-top: 1px solid #142464;
+      width: 100%;
+      margin: 10px 0;
+  }
+
   #right-side {
+      height: 400px;
       padding-top: 40px;
       width: 50%;
       float: right;
-      background-color: brown;
+      background-color: orchid;
+      font-size: 16px;
   }
 
   #right-image {
+      height: 400px;
+  }
+
+  #right-image {
+      height: 400px;
       padding-top: 40px;
       width: 50%;
       float: right;
       background-color: darkorange;
   }
 
-  #left-image {
-      padding-top: 40px;
-      width: 50%;
-      float: left;
-      background-color: darkolivegreen;
-  }
 
   /*Donations*/
 
