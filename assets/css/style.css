@@ -64,7 +64,7 @@
   #main-image {
       height: 800px;
       width: 100%;
-      background-image: url('../images/front-view-pile-books-with-copy-space.jpg');
+      background-image: url('/assets/images/front-view-pile-books-with-copy-space.jpg');
       background-repeat: no-repeat;
       background-size: 100%;
       clear: both;
@@ -181,7 +181,6 @@
     width: 50%;
     float: left;
 }
-
 
   /*Donations*/
 
