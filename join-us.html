@@ -1,6 +1,6 @@
     <!DOCTYPE html>
     <html lang="en">
-    
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +10,12 @@
         <title>After Reading Book Club</title>
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
-    
+
     <body>
         <header>
             <a href="index.html">
                 <h1 id="logo">After Reading Book Club</h1>
             </a>
-    
-    
             <nav>
                 <ul id="menu">
                     <li>
@@ -27,16 +25,49 @@
                         <a href="join-us.html" class="active">Join Us</a>
                     </li>
                     <li>
-                        <a href="donations.html" >Donations</a>
+                        <a href="donations.html">Donations</a>
                     </li>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                 </ul>
             </nav>
-    
+
         </header>
-    
+        <section class="form">
+            <form action="join-in-us-form" method="post" action="#">
+                <h2>
+                    Become a member right now!
+                </h2>
+                <label for="fname">First Name</label>
+
+                <input id="fname" type="text" name="first_name" required>
+
+                <label for="lname">Last Name</label>
+
+                <input id="lname" type="text" name="last_name" required>
+                
+                <label for="email">Email Address</label>
+
+                <input id="email" type="email" name="email_address" required>
+
+                <label for="road">Just to read</label>
+
+                <input id="road" type="radio" name="running_preference" value="road" required>
+
+                <label for="trail">Just to meet</label>
+
+                <input id="trail" type="radio" name="running_preference" value="trail">
+
+                <label for="both">Both</label>
+
+                <input id="both" type="radio" name="running_preference" value="both">
+
+                <input type="submit" value="Send your form!">
+
+
+            </form>
+        </section>
 
         <footer>
             <ul class="social-network">
@@ -46,13 +77,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our instagram"><i
-                            class="fa-brands fa-square-instagram"></i>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our instagram"><i class="fa-brands fa-square-instagram"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page"><i
-                            class="fa-brands fa-youtube"></i>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page"><i class="fa-brands fa-youtube"></i>
                     </a>
                 </li>
             </ul>
@@ -61,5 +92,5 @@
         <!--font awesome script-->
         <script src="https://kit.fontawesome.com/35b1c3ec6c.js" crossorigin="anonymous"></script>
     </body>
-    
+
     </html>

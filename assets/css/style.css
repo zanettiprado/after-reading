@@ -65,6 +65,8 @@
       height: 800px;
       width: 100%;
       background-image: url('/assets/images/front-view-pile-books-with-copy-space.jpg');
+      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
       clear: both;
@@ -250,6 +252,23 @@
       border: 1px solid #adb5cde6;
 
   }
+
+  /*Join us form and membership area*/
+.form {
+   width: 100%;
+    background: url('/assets/images/cover-form.png');
+    background-position: center;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    clear: both;
+    position: relative;
+    padding-bottom: 50px;
+
+}
 
   /*footer*/
   footer {
