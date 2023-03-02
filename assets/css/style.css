@@ -266,8 +266,13 @@
    }
 
 .join-in-us-form {
-    background: fixed solid #142464;
-
+    margin: 10px 2% 0 800px;
+    color: #ffffff;
+    background-color: rgba(24, 4, 75, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
 .join-in-us-form h2 {
@@ -320,8 +325,6 @@
   footer {
       height: 120px;
       background-color: rgb(20, 36, 100, 0.9);
-      padding: 2px;
-      margin: 2px;
 
   }
 
