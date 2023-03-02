@@ -35,21 +35,21 @@
 
         </header>
         <section class="form">
-            <form action="join-in-us-form" method="post" action="#">
+            <form class="join-in-us-form" method="post" action="#">
                 <h2>
-                    Become a member right now!
+                    <i class="fa-duotone fa-books"></i> Become a member right now! 
                 </h2>
                 <label for="fname">First Name</label>
 
-                <input id="fname" type="text" name="first_name" required>
+                <input class="text-input" id="fname" type="text" name="first_name" required>
 
                 <label for="lname">Last Name</label>
 
-                <input id="lname" type="text" name="last_name" required>
+                <input class="text-input" id="lname" type="text" name="last_name" required>
                 
-                <label for="email">Email Address</label>
+                <label  for="email">Email Address</label>
 
-                <input id="email" type="email" name="email_address" required>
+                <input class="text-input" id="email" type="email" name="email_address" required>
 
                 <label for="road">Just to read</label>
 
@@ -62,9 +62,20 @@
                 <label for="both">Both</label>
 
                 <input id="both" type="radio" name="running_preference" value="both">
+              
+                <label for="age">Age</label>
+                <select class="age" id="age" name="age" required>
+                    <option value="under-20">Under 20</option>
+                    <option value="20s">20-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40s">40-49</option>
+                    <option value="over 50">Over 50</option>
 
-                <input type="submit" value="Send your form!">
+                </select>
 
+                <input class="join-now" type="submit" value="Join in now!">
+
+                
 
             </form>
         </section>
