@@ -105,10 +105,11 @@
   .welcome {
       font-size: 20px;
       font-style: italic;
+      font-weight: lighter;
   }
 
   /*Goals and meetings information*/
-  #information{
+  #information {
       height: 1200px;
 
   }
@@ -139,9 +140,9 @@
   }
 
   #hangouts h2 {
-    padding: 20px;
-    width: 80%;
-}
+      padding: 20px;
+      width: 80%;
+  }
 
   #our-goals {
       float: left;
@@ -149,27 +150,32 @@
       text-align: right;
 
   }
-  #our-goals h2{
-    padding: 20px;
-    width: 80%;
+
+  #our-goals h2 {
+      padding: 20px;
+      width: 80%;
   }
+
   #hangouts p {
-    width: 80%;
-    float: left;
-    font-size: 24px;
+      width: 80%;
+      float: left;
+      font-size: 24px;
 
   }
+
   .goals-list {
-    width: 80%;
-    float: right;
+      width: 80%;
+      float: right;
   }
+
   .goals-list li {
-    font-weight: lighter;
+      font-weight: lighter;
   }
-  hr { 
-    border: 1px solid #142464;
+
+  hr {
+      border: 1px solid #142464;
   }
-  
+
 
   /*Donations*/
 
@@ -323,4 +329,57 @@
 
   /*media queries (for large screens)*/
 
-  @media screen and (max-width: 1200px) {}
+  @media screen and (max-width: 1200px) {
+      #reasons {
+          margin: 0;
+      }
+
+      #reasons h2 {
+          padding: 0;
+      }
+
+      #information {
+          height: 2000px;
+      }
+
+      #right-image img {
+          width: 100%;
+      }
+
+      #left-image img {
+          width: 100%;
+      }
+
+      #hangouts {
+          width: 100%;
+          text-align: center;
+      }
+
+      #hangouts h2 {
+          padding: 0;
+          width: 100%;
+      }
+
+      #our-goals {
+          width: 100%;
+          text-align: center;
+      }
+
+      #our-goals h2 {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+      }
+
+      #hangouts p {
+          width: 100%;
+          font-size: 24px;
+      }
+
+      .goals-list {
+          width: 100%;
+          float: center;
+      }
+  }
+
+  @media screen and (max-width: 575px)
