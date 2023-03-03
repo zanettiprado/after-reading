@@ -329,87 +329,68 @@
   /*media queries (for large screens)*/
 
   @media screen and (max-width: 1200px) {
-      #reasons {
-          margin: 0;
-      }
 
+      body,
+      #reasons,
       #reasons h2 {
-          padding: 0;
+          margin: 2px;
+          padding: 2px;
       }
 
       #information {
           height: 2000px;
-      }
-
-      #right-image img {
           width: 100%;
+          line-height: normal;
+
       }
 
+      #right-image img,
       #left-image img {
           width: 100%;
       }
 
-      #hangouts {
-          width: 100%;
-          text-align: center;
-      }
-
-      #hangouts h2 {
-          padding: 0;
-          width: 100%;
-      }
-
-      #our-goals {
-          width: 100%;
-          text-align: center;
-      }
-
-      #our-goals h2 {
-          padding: 0;
-          margin: 0;
-          width: 100%;
-      }
-
-      #hangouts p {
-          width: 100%;
-          font-size: 24px;
-      }
-
+      #hangouts,
+      #hangouts h2,
+      #our-goals,
+      #our-goals h2,
+      #hangouts p,
       .goals-list {
           width: 100%;
-          float: center;
+          text-align: center;
+          padding: 0;
+          margin: 0;
       }
   }
 
   @media screen and (max-width: 930px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin: 25px 5px 30px 5px;
-        padding: 20px;
-        line-height: 25px;
-    }
-    @media screen and (max-width: 660px) {
+      #menu {
+          clear: left;
+          float: left;
+          margin: 25px 5px 30px 5px;
+          padding: 20px;
+          line-height: 25px;
+      }
 
-    #information {
-        height: 2300px;
-    }
+      @media screen and (max-width: 660px) {
 
-    #right-image  {
-        height: 250px;
-        max-width: 200px;
-        margin-bottom: 2;
-    }
+          #information {
+              height: 2300px;
+          }
 
-    #left-image  {
-        height: 250px;
-        max-width: 200px;
-    }
-    #right-image img {
-        width: 100%;
-    }
+          #right-image,
+          #left-image {
+              width: 100%;
+              margin-bottom: 10px;
+              height: 400px;
+              width: 420px;
+          }
 
-    #left-image img {
-        width: 100%;
-    }
-  }
+          #right-image img,
+          #left-image img {
+              width: 100%;
+          }
+
+          #cover-text {
+              right: 0;
+          }
+      }
