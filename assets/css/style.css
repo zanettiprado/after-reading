@@ -37,6 +37,7 @@
 
   #menu {
       font-size: 120%;
+      margin-right: 40px;
   }
 
   #menu li {
@@ -108,30 +109,52 @@
 
   /*Goals and meetings information*/
   #information {
-   columns: 2;
-   display: flex;
-   flex-wrap: wrap;
+      
   }
 
-    #our-goals, #left-image>img, #right-side, #right-image>img {
-        height: 500px;
-    }
-    #right-image img{
-        width: 100%;
-    }
-    #left-image img {
-        width: 100%;
-    }
-    #hangouts {
-        float: right;
-        width: 50%;
+  #our-goals,
+  #left-image,
+  #hangouts,
+  #right-image {
+      height: 500px;
+  }
 
-    }
-    #our-goals {
-        float: right;
-        width: 50%;
+  #right-image img {
+      width: 40%;
+      height: 500px;
+      float: right;
+  }
 
-    }
+  #left-image img {
+      width: 40%;
+      height: 500px;
+      float: left;
+  }
+
+  #hangouts {
+      float: right;
+      width: 50%;
+      text-align: center;
+
+  }
+
+  #our-goals {
+      float: left;
+      width: 50%;
+      text-align: center;
+
+  }
+  #hangouts p {
+    width: 80%;
+    float: left;
+    font-size: 22px;
+
+  }
+  .goals-list {
+    width: 80%;
+    float: right;
+
+  }
 
 
   /*Donations*/
