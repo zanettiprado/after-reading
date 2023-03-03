@@ -108,8 +108,9 @@
   }
 
   /*Goals and meetings information*/
-  #information {
-      
+  #information{
+      height: 1200px;
+
   }
 
   #our-goals,
@@ -134,28 +135,41 @@
   #hangouts {
       float: right;
       width: 50%;
-      text-align: center;
-
+      text-align: left;
   }
+
+  #hangouts h2 {
+    padding: 20px;
+    width: 80%;
+}
 
   #our-goals {
       float: left;
       width: 50%;
-      text-align: center;
+      text-align: right;
 
+  }
+  #our-goals h2{
+    padding: 20px;
+    width: 80%;
   }
   #hangouts p {
     width: 80%;
     float: left;
-    font-size: 22px;
+    font-size: 24px;
 
   }
   .goals-list {
     width: 80%;
     float: right;
-
   }
-
+  .goals-list li {
+    font-weight: lighter;
+  }
+  hr { 
+    border: 1px solid #142464;
+  }
+  
 
   /*Donations*/
 
