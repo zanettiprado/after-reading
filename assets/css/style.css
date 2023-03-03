@@ -382,4 +382,26 @@
       }
   }
 
-  @media screen and (max-width: 575px)
+  @media screen and (max-width: 575px) {
+    #information {
+        height: 2300px;
+    }
+
+    #right-image  {
+        height: 250px;
+        max-width: 200px;
+        margin-bottom: 2;
+    }
+
+    #left-image  {
+        height: 250px;
+        max-width: 200px;
+    }
+    #right-image img {
+        width: 100%;
+    }
+
+    #left-image img {
+        width: 100%;
+    }
+  }
