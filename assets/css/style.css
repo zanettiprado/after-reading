@@ -16,7 +16,6 @@
 
   h1 {
       text-transform: uppercase;
-      letter-spacing: -1px;
       padding-left: 20px;
   }
 
@@ -382,7 +381,16 @@
       }
   }
 
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 930px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin: 25px 5px 30px 5px;
+        padding: 20px;
+        line-height: 25px;
+    }
+    @media screen and (max-width: 660px) {
+
     #information {
         height: 2300px;
     }
