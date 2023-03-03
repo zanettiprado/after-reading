@@ -325,6 +325,8 @@
   footer {
       height: 120px;
       background-color: rgb(20, 36, 100, 0.9);
+      bottom: 0;
+      position: absolute;
 
   }
 
