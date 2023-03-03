@@ -62,37 +62,28 @@
   /*hero-image*/
 
   #hero-image {
-      height: 800px;
+      height: 700px;
       width: 100%;
       background-image: url('/assets/images/front-view-pile-books-with-copy-space.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100%;
       clear: both;
       position: relative;
-  }
-
-  #cover-text,
-  #cover-text h2 {
-      color: white;
+      text-align: center;
   }
 
   #cover-text {
       font-size: 200%;
+      max-width: 400px;
       font-family: Assistant, sans-serif;
       text-transform: uppercase;
-
-      width: 390px;
-      padding-top: 40px;
-      padding-left: 10px;
-
-      background-color: rgba(173, 181, 205, 0.9);
-
-      bottom: 30px;
-      right: 150px;
-
+      background-color: rgba(214, 211, 223, 0.6);
+      margin-top: 20px;
+      right: 250px;
       position: absolute;
+      font-style: oblique;
+
   }
 
   /* reasons to join us section */
@@ -255,78 +246,91 @@
 
   /*Join us form */
   .form {
-        width: 100%;
-        background: url('/assets/images/cover-form.png');
-        height: 900px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        clear: left;
-        padding-bottom: 50px;
-        position: relative;
-   }
+      width: 100%;
+      background: url('/assets/images/cover-form.png');
+      height: 900px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      clear: left;
+      padding-bottom: 50px;
+      position: relative;
+  }
 
-.join-in-us-form {
-    margin: 10px 2% 0 800px;
-    color: #ffffff;
-    background-color: rgba(24, 4, 75, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
+  .join-in-us-form,
+  .text-input,
+  .age,
+  .join-now {
+      font-size: 18px;
 
-.join-in-us-form h2 {
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-.text-input {
-    background: transparent;
-    color: #ffffff;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-}
-.text-input:hover {
-    border-color: #142464;
-}
-.age {
-    width: 30%;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 15px 0 15px 0;
-    background-color: #142464;;
-    color: #ffffff
-}
-.age:hover {
-    background-color: #ffffff;
-    color: #142464;
+  }
 
-}
-.join-now {
-    width: 80%;
-    text-align: center;
-    border-radius: 5px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #142464;
-    color: #ffffff;
-    display: block;
-}
-.join-now:hover {
-    background-color: #ffffff;
-    color: #142464;
-}
+  .join-in-us-form {
+      color: #142464;
+      background-color: rgba(214, 211, 223, 0.6);
+      max-width: 400px;
+      position: absolute;
+      padding: 30px;
+      margin-top: 20px;
+      right: 250px;
+  }
+
+  .join-in-us-form h2 {
+      color: #142464;
+      margin-bottom: 20px;
+  }
+
+  .text-input {
+      background: transparent;
+      color: #ffffff;
+      width: 100%;
+      height: 25px;
+      margin: 5px 0 20px 0;
+      border: 2px solid #ffffff;
+      border-radius: 5px;
+  }
+
+  .text-input:hover {
+      border-color: #142464;
+  }
+
+  .age {
+      width: 30%;
+      padding: 5px;
+      border-radius: 5px;
+      margin: 15px 0 15px 15px;
+      background-color: #142464;
+      ;
+      color: #ffffff
+  }
+
+  .age:hover {
+      background-color: #ffffff;
+      color: #142464;
+
+  }
+
+  .join-now {
+      width: 80%;
+      text-align: center;
+      border-radius: 5px;
+      padding: 15px 32px 15px 32px;
+      text-align: center;
+      font-size: 100%;
+      background-color: #142464;
+      color: #ffffff;
+      display: block;
+  }
+
+  .join-now:hover {
+      background-color: #ffffff;
+      color: #142464;
+  }
 
 
   /*footer*/
   footer {
       height: 120px;
       background-color: rgb(20, 36, 100, 0.9);
-      bottom: 0;
-      position: absolute;
 
   }
 
