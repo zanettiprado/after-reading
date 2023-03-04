@@ -233,7 +233,7 @@
   .join-in-us-form {
       color: #142464;
       background-color: rgba(214, 211, 223, 0.6);
-      max-width: 400px;
+      max-width: 250px;
       position: absolute;
       padding: 30px;
       margin-top: 20px;
@@ -243,6 +243,7 @@
   .join-in-us-form h2 {
       color: #142464;
       margin-bottom: 20px;
+      text-align: center;
   }
 
   .text-input {
@@ -260,12 +261,12 @@
   }
 
   .age {
-      width: 30%;
+      width: 70%;
       padding: 5px;
+      text-align: center;
       border-radius: 5px;
-      margin: 15px 0 15px 15px;
+      margin: 0 0 20px 15px;
       background-color: #142464;
-      ;
       color: #ffffff
   }
 
@@ -276,15 +277,12 @@
   }
 
   .join-now {
-      width: 80%;
-      text-align: center;
+      width: 100%;
       border-radius: 5px;
       padding: 15px 32px 15px 32px;
-      text-align: center;
       font-size: 100%;
       background-color: #142464;
       color: #ffffff;
-      display: block;
   }
 
   .join-now:hover {
