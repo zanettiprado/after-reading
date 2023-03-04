@@ -65,7 +65,7 @@
       height: 700px;
       width: 90%;
       margin: 0 5%;
-      background-image: url('/assets/images/front-view-pile-books-with-copy-space.jpg');
+      background-image: url('/assets/images/hero-image.jpeg');
       background-size: cover;
       background-repeat: no-repeat;
       clear: both;
@@ -122,13 +122,13 @@
   #right-image img {
       width: 40%;
       height: 500px;
-      float: right;
+      padding: 0 5%;
   }
 
   #left-image img {
       width: 40%;
       height: 500px;
-      float: left;
+      padding: 10px 5%;
   }
 
   #hangouts {
@@ -347,7 +347,11 @@
 
       #right-image img,
       #left-image img {
-          width: 100%;
+          width: 70%;
+          height: 0 auto ;
+          margin: 0 10%;
+          float: left;
+          
       }
 
       #hangouts,
@@ -363,7 +367,7 @@
       }
 
       .form {
-          position: static
+          position: static;
       }
 
       .join-in-us-form {

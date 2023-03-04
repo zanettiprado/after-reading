@@ -6,7 +6,7 @@ After Reading Book Club is a welcoming community of passionate readers who meet 
 At the top of the page the navigation shows a clickable AFTER READING BOOK CLUB also other 3 options to navigate throughout the website:
 - Home: index.html
 - Donations: donations.html
-- Join Us: join-us.html
+- Join Us: join-us.html 
 
 ### Header 
 The header was created using a hero image a pile of books and a cover test sayint "Reading strengthens your brain, Join us". The cover text contrasts with the Hero image
