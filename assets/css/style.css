@@ -396,6 +396,22 @@
           text-align: center;
           margin: 10px;
       }
+      .form {
+
+            width: 100%;
+            background: none;
+            height: 900px;
+            clear: left;
+            overflow: auto;
+    } 
+     
+    .join-in-us-form {
+        color: #142464;
+        background-color: rgba(214, 211, 223, 0.6);
+      
+    }
+
+          }
 
       @media screen and (max-width: 660px) {
 
@@ -427,7 +443,7 @@
               width: 100%;
               margin-bottom: 10px;
               height: 800px;
-              margin-bottom: 150px;
+              margin-bottom: 50px;
               clear: both;
 
 
@@ -448,5 +464,5 @@ footer {
     position: fixed;
 
 }
-      }
+
   }
