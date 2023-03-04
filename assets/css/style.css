@@ -341,7 +341,7 @@
           height: 2000px;
           width: 100%;
           line-height: normal;
-          
+
 
       }
 
@@ -361,23 +361,24 @@
           padding: 0;
           margin: 0;
       }
+
       .form {
-        position:static
-    }
-    
-    }
-  
-    .join-in-us-form {
-        width: 100%;
-        padding-bottom: 40px;
-    }
+          position: static
+      }
+
+      .join-in-us-form {
+          width: 100%;
+          height: 500px;
+          padding-bottom: 40px;
+      }
+  }
 
   @media screen and (max-width: 930px) {
       #menu {
           clear: left;
           float: left;
           margin: 25px 5px 30px 5px;
-          padding: 20px;
+          padding: 0;
           line-height: 25px;
           font-size: 100%;
       }
@@ -407,4 +408,4 @@
           }
 
       }
-    }
+  }
