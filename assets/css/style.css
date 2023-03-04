@@ -361,7 +361,16 @@
           padding: 0;
           margin: 0;
       }
-  }
+      .form {
+        position:static
+    }
+    
+    }
+  
+    .join-in-us-form {
+        width: 100%;
+        padding-bottom: 40px;
+    }
 
   @media screen and (max-width: 930px) {
       #menu {
@@ -396,5 +405,6 @@
           #cover-text {
               right: 0;
           }
+
       }
     }
