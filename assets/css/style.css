@@ -30,7 +30,7 @@
   #logo {
       height: 90px;
       float: left;
-      font-size: 230%;
+      font-size: 210%;
       font-family: 'Carter one', sans-serif;
   }
 
@@ -341,6 +341,7 @@
           height: 2000px;
           width: 100%;
           line-height: normal;
+          
 
       }
 
@@ -369,12 +370,14 @@
           margin: 25px 5px 30px 5px;
           padding: 20px;
           line-height: 25px;
+          font-size: 100%;
       }
 
       @media screen and (max-width: 660px) {
 
           #information {
               height: 2300px;
+              font-size: 90%;
           }
 
           #right-image,
@@ -394,3 +397,4 @@
               right: 0;
           }
       }
+    }
