@@ -63,14 +63,13 @@
 
   #hero-image {
       height: 700px;
-      width: 100%;
+      width: 90%;
+      margin: 0 5%;
       background-image: url('/assets/images/front-view-pile-books-with-copy-space.jpg');
       background-size: cover;
-      background-position: center;
       background-repeat: no-repeat;
       clear: both;
       position: relative;
-      text-align: center;
   }
 
   #cover-text {
@@ -212,7 +211,8 @@
 
   /*Join us form */
   .form {
-      width: 100%;
+      width: 90%;
+      margin: 5% 5%;
       background: url('/assets/images/cover-form.png');
       height: 900px;
       background-repeat: no-repeat;
