@@ -145,7 +145,7 @@
   #our-goals {
       float: left;
       width: 50%;
-      text-align: right;
+      text-align: left;
 
   }
 
@@ -164,6 +164,9 @@
   .goals-list {
       width: 80%;
       float: right;
+  }
+  .goals-list > h2 {
+    font-size: 200%;
   }
 
   .goals-list li {
@@ -341,19 +344,27 @@
           height: 2000px;
           width: 100%;
           line-height: normal;
+          height: 0 auto;
+          margin: 0 auto;
 
 
       }
 
       #right-image img,
       #left-image img {
-          width: 70%;
-          height: 0 auto ;
-          margin: 0 10%;
-          float: left;
+          width: 50%;
+          height: 0 auto;
+          float: left; 
           
       }
-
+      #our-goals, #hangouts p,
+      #hangouts h2 {
+        width: 100%;
+        height: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       #hangouts,
       #hangouts h2,
       #our-goals,
@@ -411,7 +422,7 @@
         color: #142464;
         background-color: rgba(214, 211, 223, 0.6);
       
-    }
+    } 
 
           }
 
