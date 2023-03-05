@@ -26,3 +26,23 @@ To express interest in our weekly meetings, members have to fill out a form indi
 ### Footer 
 You find the Social Medias just clicking in the links and also credits the website. 
 
+## Testing 
+- Here I have to say that I tested my page in following brawsers: Chrome, Firefox and Safari.
+- The page is responsive for different scrren sizes tested using devtools device toolbar. 
+- The whole page is working and is responsive header, home, donations and joins us is working as expected. 
+- form is working and do not allowed you submit if the criteria is not right. 
+
+### Bugs 
+- In the very first deployment images were not loading correctly and I needed to fix it.
+It happens because...
+
+### Validator testing 
+- HTML 
+- CSS 
+- Accessibility pages are clear and text contrasting with background easy to read accessibility is 100%
+
+## Deployment 
+- The website was created in GitHub using GitPod tools 
+
+## Credits 
+All images in this page were taken in [freepik](https://www.freepik.com/) 
