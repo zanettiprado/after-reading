@@ -73,12 +73,12 @@
   }
 
   #cover-text {
-      font-size: 200%;
-      max-width: 400px;
+      font-size: 170%;
+      max-width: 290px;
       font-family: Assistant, sans-serif;
       text-transform: uppercase;
       background-color: rgba(214, 211, 223, 0.6);
-      margin-top: 20px;
+      margin: 10px 5px 10px 5px;
       right: 250px;
       position: absolute;
       font-style: oblique;
@@ -385,7 +385,7 @@
           padding: 10px 5%;
       }
 
-      #hangouts,
+     
       #our-goals {
           float: right;
           padding: 35px;
@@ -393,10 +393,10 @@
       }
 
 
-      #hangouts,
-      hangouts p {
-          width: 100%;
-          margin-left: 10%;
+      #hangouts h2, #hangouts,
+      #hangouts p {
+          width: 90%;
+          padding: 35px;
 
       }
 
@@ -409,10 +409,4 @@
       #cover-text {
           right: 0;
       }
-
-      /* 
-      footer {
-          position: fixed;
-          bottom: 0;
-      } */
   }
