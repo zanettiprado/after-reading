@@ -88,14 +88,13 @@
 
   #reasons {
       margin-top: 40px;
-      text-transform: none;
   }
 
   #reasons>h2 {
       font-size: 36px;
       text-align: center;
-      padding: 5px 150px 20px 150px;
-      text-transform: none;
+      width: 90%;
+      margin: 0 auto;
       margin-bottom: 50px;
 
   }
@@ -108,7 +107,7 @@
 
   /*Goals and meetings information*/
   #information {
-      height: 1200px;
+      height: 1300px;
 
   }
 
@@ -119,15 +118,10 @@
       height: 500px;
   }
 
-  #right-image img {
-      width: 40%;
-      height: 500px;
-      padding: 0 5%;
-  }
-
+  #right-image img,
   #left-image img {
       width: 40%;
-      height: 500px;
+      height: 400px;
       padding: 10px 5%;
   }
 
@@ -135,9 +129,11 @@
       float: right;
       width: 50%;
       text-align: left;
+      text-align: justify;
   }
 
-  #hangouts h2 {
+  #hangouts h2,
+  #our-goals h2 {
       padding: 20px;
       width: 80%;
   }
@@ -145,36 +141,27 @@
   #our-goals {
       float: left;
       width: 50%;
-      text-align: left;
+      text-align: right;
+      text-align: justify;
 
-  }
-
-  #our-goals h2 {
-      padding: 20px;
-      width: 80%;
   }
 
   #hangouts p {
-      width: 80%;
+      width: 90%;
       float: left;
-      font-size: 24px;
+      font-size: 20px;
 
   }
 
   .goals-list {
       width: 80%;
       float: right;
-  }
-  .goals-list > h2 {
-    font-size: 200%;
+
   }
 
-  .goals-list li {
+  .goals-list p {
       font-weight: lighter;
-  }
-
-  hr {
-      border: 1px solid #142464;
+      font-size: 20px;
   }
 
 
@@ -300,6 +287,7 @@
       width: 100%;
       background-color: rgb(20, 36, 100, 0.9);
       margin: 0;
+      align-self: flex-end;
       position: absolute;
 
   }
@@ -331,64 +319,7 @@
 
   /*media queries (for large screens)*/
 
-  @media screen and (max-width: 1200px) {
-
-      body,
-      #reasons,
-      #reasons h2 {
-          margin: 2px;
-          padding: 2px;
-      }
-
-      #information {
-          height: 2000px;
-          width: 100%;
-          line-height: normal;
-          height: 0 auto;
-          margin: 0 auto;
-
-
-      }
-
-      #right-image img,
-      #left-image img {
-          width: 50%;
-          height: 0 auto;
-          float: left; 
-          
-      }
-      #our-goals, #hangouts p,
-      #hangouts h2 {
-        width: 100%;
-        height: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #hangouts,
-      #hangouts h2,
-      #our-goals,
-      #our-goals h2,
-      #hangouts p,
-      .goals-list {
-          width: 100%;
-          text-align: center;
-          padding: 0;
-          margin: 0;
-      }
-
-      .form {
-          position: static;
-      }
-
-      .join-in-us-form {
-          width: 100%;
-          height: 500px;
-          padding-bottom: 40px;
-      }
-  }
-
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: 890px) {
       #logo {
           margin: 0;
           padding: 0;
@@ -409,73 +340,107 @@
           text-align: center;
           margin: 10px;
       }
+
+      #information {
+          height: 2300px;
+          font-size: 90%;
+      }
+
+      #right-image,
+      #left-image,
+      #our-goals,
+      #hangouts {
+          width: 100%;
+          margin-bottom: 10px;
+          height: 800px;
+          margin-bottom: 50px;
+          clear: both;
+
+
+      }
+
+      #right-image img,
+      #left-image img {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+      }
+
       .form {
 
-            width: 100%;
-            background: none;
-            height: 900px;
-            clear: left;
-            overflow: auto;
-    } 
-     
-    .join-in-us-form {
-        color: #142464;
-        background-color: rgba(214, 211, 223, 0.6);
-      
-    } 
+          width: 100%;
+          background: none;
+          height: 900px;
+          clear: left;
+          overflow: auto;
+      }
 
-          }
+      .join-in-us-form {
+          color: #142464;
+          background-color: rgba(214, 211, 223, 0.6);
 
-      @media screen and (max-width: 660px) {
+      }
 
-          #logo {
-              line-height: 120%;
-              padding-bottom: 5px;
-          }
+      footer {
+          position: fixed;
+          bottom: 0;
 
-          #menu {
-              padding: 0;
-              margin: 0;
-          }
+      }
 
-          #menu li {
-              padding: 5px;
-              margin: 5px;
-              width: 100%;
-              text-align: center;
-          }
+  }
 
-          #information {
-              height: 2300px;
-              font-size: 90%;
-          }
+  @media screen and (max-width: 660px) {
 
-          #right-image,
-          #left-image,  #our-goals,
-          #hangouts {
-              width: 100%;
-              margin-bottom: 10px;
-              height: 800px;
-              margin-bottom: 50px;
-              clear: both;
+      #logo {
+          line-height: 120%;
+          padding-bottom: 5px;
+      }
+
+      #menu {
+          padding: 0;
+          margin: 0;
+      }
+
+      #menu li {
+          padding: 5px;
+          margin: 5px;
+          width: 100%;
+          text-align: center;
+      }
+
+      #information {
+          height: 2300px;
+          font-size: 90%;
+          width: 80%;
+      }
+
+      #right-image,
+      #left-image,
+      #our-goals,
+      #hangouts {
+          width: 100%;
+          margin-bottom: 10px;
+          height: 800px;
+          margin-bottom: 50px;
+          clear: both;
 
 
-          }
+      }
 
-          #right-image img,
-          #left-image img {
-              width: 100%;
-              margin: 0;
-              padding: 0;
-          }
+      #right-image img,
+      #left-image img {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+      }
 
-          #cover-text {
-              right: 0;
-          }
-footer {
-    bottom: 0;
-    position: fixed;
+      #cover-text {
+          right: 0;
+      }
 
-}
+      footer {
+          position: fixed;
+          bottom: 0;
 
+      }
   }
