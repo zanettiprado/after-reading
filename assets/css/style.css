@@ -350,7 +350,7 @@
 
       .form {
         position: relative;
-        background-size: cover;
+        background-image: none;
         inset: auto;
         display: flex;
         justify-content: center;
