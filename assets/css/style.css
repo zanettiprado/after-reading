@@ -97,7 +97,7 @@
       text-align: center;
       width: 90%;
       margin: 0 auto;
-      
+
 
   }
 
@@ -186,10 +186,11 @@
       justify-content: center;
 
   }
+
   #suggested-books h3 {
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
   }
 
   #suggested-books>img {
@@ -308,7 +309,6 @@
 
   .social-network {
       text-align: center;
-
   }
 
   .social-network li {
@@ -349,17 +349,17 @@
 
 
       .form {
-        position: relative;
-        background-image: none;
-        inset: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+          position: relative;
+          background-image: none;
+          inset: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
       }
 
       .join-in-us-form {
-        inset: auto;
-        
+          inset: auto;
+
       }
 
   }
@@ -384,8 +384,9 @@
           width: 100%;
           text-align: center;
       }
+
       #information {
-        margin: 20px;
+          margin: 20px;
       }
 
       #right-image img,
