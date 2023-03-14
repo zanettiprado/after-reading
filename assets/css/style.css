@@ -90,19 +90,25 @@
       margin-top: 40px;
   }
 
-  #reasons>h2 {
+  #reasons>h2, #hangouts h2,
+  #our-goals h2 {
       font-size: 36px;
       text-align: center;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 50px;
+      margin-bottom: 20px;
 
   }
 
   .welcome {
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 50px;
       font-size: 20px;
       font-style: italic;
       font-weight: lighter;
+      text-align: justify;
   }
 
   /*Goals and meetings information*/
@@ -134,12 +140,6 @@
       text-align: justify;
   }
 
-  #hangouts h2,
-  #our-goals h2 {
-      padding: 20px;
-      width: 80%;
-  }
-
   #our-goals {
       float: left;
       width: 50%;
@@ -152,18 +152,16 @@
       width: 90%;
       float: left;
       font-size: 20px;
-
+      padding: 10px;
+      margin-top: 30px
   }
 
-  .goals-list {
-      width: 80%;
+  #our-goals p {
+      width: 90%;
       float: right;
-
-  }
-
-  .goals-list p {
-      font-weight: lighter;
       font-size: 20px;
+      padding: 10px;
+      margin-top: 30px;
   }
 
 
@@ -385,7 +383,7 @@
           padding: 10px 5%;
       }
 
-     
+
       #our-goals {
           float: right;
           padding: 35px;
@@ -393,7 +391,8 @@
       }
 
 
-      #hangouts h2, #hangouts,
+      #hangouts h2,
+      #hangouts,
       #hangouts p {
           width: 90%;
           padding: 35px;
