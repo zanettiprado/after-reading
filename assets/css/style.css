@@ -90,7 +90,8 @@
       margin-top: 40px;
   }
 
-  #reasons>h2, #hangouts h2,
+  #reasons>h2,
+  #hangouts h2,
   #our-goals h2 {
       font-size: 36px;
       text-align: center;
@@ -114,6 +115,7 @@
   /*Goals and meetings information*/
   #information {
       height: auto;
+      margin-bottom: 10%;
 
   }
 
@@ -316,7 +318,7 @@
       letter-spacing: 5px;
   }
 
-  /*media queries (for large screens)*/
+  /*media queries (for medium screens)*/
 
   @media screen and (max-width: 890px) {
       #logo {
@@ -357,6 +359,8 @@
 
   }
 
+  /* media queries for small screens */
+
   @media screen and (max-width: 660px) {
 
       #logo {
@@ -384,25 +388,16 @@
       }
 
 
-      #our-goals {
-          float: right;
-          padding: 35px;
-          width: 100%;
-      }
-
-
+      #our-goals,
+      #our-goals p,
+      #our-goals h2,
       #hangouts h2,
       #hangouts,
       #hangouts p {
-          width: 90%;
-          padding: 35px;
-
-      }
-
-      .goals-list {
           width: 100%;
-          float: right;
-
+          float: left;
+          margin: 0;
+          padding: 0;
       }
 
       #cover-text {
