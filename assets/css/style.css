@@ -186,6 +186,11 @@
       justify-content: center;
 
   }
+  #suggested-books h3 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
 
   #suggested-books>img {
       width: 300px;
