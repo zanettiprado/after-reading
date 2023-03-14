@@ -97,7 +97,7 @@
       text-align: center;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 20px;
+      
 
   }
 
@@ -383,6 +383,9 @@
           margin: 5px;
           width: 100%;
           text-align: center;
+      }
+      #information {
+        margin: 20px;
       }
 
       #right-image img,
