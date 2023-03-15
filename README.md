@@ -1,5 +1,5 @@
 # After Reading Book Club    
-After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![website](assets/images/readme-images/am-I-responsive.png)
+After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![website](documentation/readme-images/am-I-responsive.png)
 
 # Live Demo
 You can find a live demo simply [here](https://zanettiprado.github.io/after-reading-book-club/)
@@ -29,13 +29,15 @@ You can find a live demo simply [here](https://zanettiprado.github.io/after-read
 # Language used 
 - HTML
 - CSS
+# Design 
 
-# Features
+## Features
 ### Navigation
 At the top of the page the navigation shows a clickable AFTER READING BOOK CLUB also other 3 options to navigate throughout the website:
-- Home: index.html
-- Donations: donations.html
-- Join Us: join-us.html 
+![Navigation](documentation/readme-images/nav-bar.PNG)
+- Home: index.html [home](https://zanettiprado.github.io/after-reading-book-club/index.html)
+- Donations: donations.html [Donations](https://zanettiprado.github.io/after-reading-book-club/index.html)
+- Join Us: join-us.html [Joim-us](https://zanettiprado.github.io/after-reading-book-club/index.html) 
 
 ### Header 
 The header was created using a hero image a pile of books and a cover test sayint "Reading strengthens your brain, Join us". The cover text contrasts with the Hero image
