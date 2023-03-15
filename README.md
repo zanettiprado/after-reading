@@ -98,40 +98,35 @@ W3C Markup Validator and W3C CSS Validator Services were used to validate each p
  ![CSS Test](documentation/css-w3c-test.PNG)
 
 ## Further testing 
-- The website is resposive and was tested for the following Viewports
-- Desktop
+* The website is resposive and was tested for the following Viewports
+    * Desktop
 1600x992px scaled down to scale(0.3181)
-- Laptop
+    * Laptop
 1280x802px scaled down to scale(0.277)
-- Tablet
+    * Tablet
 768x1024px scaled down to scale(0.219)
-- Mobile
+    * Mobile
 320x480px scaled down to scale(0.219)
 
 # Bugs 
 ## Known bugs 
-- For very some mobiles the visibility of the form can be affected.  
+- For some mobiles the visibility of the form can be affected but still working.  
 - A white gap can be seen to the right of the background image affecting the navigation bar but can still being clicked. 
 
 ## Fixed bugs
 - After first deployment images were not loading correctly and the path was changed for absolute to make it solved. 
-- Unordered List items was used at the beginnig to describe goals but it was affecting 
+- Unordered List items was used at the beginnig to describe goals but it was affecting user understanding and it was changed for a text using paragraph
 
-- Here I have to say that I tested my page in following brawsers: Chrome, Firefox and Safari.
-- The page is responsive for different scrren sizes tested using devtools device toolbar. 
-- The whole page is working and is responsive header, home, donations and joins us is working as expected. 
-- form is working and do not allowed you submit if the criteria is not right. 
+# Compatibility 
+The website displays correctly across different browsers and screen sizes. It was tested for Chrome Mozilla Firefox, Safari and Edge. 
+
+When using Safari browser for mobile, the navigation is covered by the backgroud but it does not affect the user experience since logo still being clickable
+
+# Color Scheme 
+
+Blue represents calmness, serenity, and stability. It's associated with the ocean, sky, and water which can create a relaxing environment for readers. It can also help reduce eye strain and fatigue. Incorporating blue into a reading space can be as simple as using blue-hued light bulbs or adding blue-colored accents to the decor. This is the main reason when you open the website the first color you find is blue. I used also light grey to contrast with the blue and you can find a bit of orange in few borders. 
 
 
-
-### Bugs 
-- In the very first deployment images were not loading correctly and I needed to fix it.
-It happens because...
-
-### Validator testing 
-- HTML 
-- CSS 
-- Accessibility pages are clear and text contrasting with background easy to read accessibility is 100%
 
 ## Deployment 
 - The website was created in GitHub using GitPod tools 
