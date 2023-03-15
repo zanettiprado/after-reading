@@ -77,7 +77,7 @@ You find the Social Medias just clicking in the links and also credits of this w
 # Testing 
 ## Accessibility
 The accessibility of this webiste was tested using DevTools lighthouse and it returned 100%.
-- Scheme colorscontrast checked to make sure user can read all the content.
+- Scheme colors contrast checked to make sure user can read all the content.
 - HTML5 landmark elements are used to improve navigation.
 - Custom controls have associated labels
 
@@ -88,12 +88,34 @@ W3C Markup Validator and W3C CSS Validator Services were used to validate each p
  - Markups Validation Service - [Test here](https://validator.w3.org/#validate_by_input)
  - CSS Validation Service - [Test here](https://jigsaw.w3.org/css-validator/)
 
+ * Index 
+ ![Index Test](documentation/index-check-w3c.PNG) 
+ * Donations 
+ ![Donations Test](documentation/donations-check-w3c.PNG)
+ * Join us 
+ ![Join Us test](documentation/join-us-check-w3c.PNG)
+ * Css 
+ ![CSS Test](documentation/css-w3c-test.PNG)
 
+## Further testing 
+- The website is resposive and was tested for the following Viewports
+- Desktop
+1600x992px scaled down to scale(0.3181)
+- Laptop
+1280x802px scaled down to scale(0.277)
+- Tablet
+768x1024px scaled down to scale(0.219)
+- Mobile
+320x480px scaled down to scale(0.219)
 
+# Bugs 
+## Known bugs 
+- For very some mobiles the visibility of the form can be affected.  
+- A white gap can be seen to the right of the background image affecting the navigation bar but can still being clicked. 
 
-
-
-
+## Fixed bugs
+- After first deployment images were not loading correctly and the path was changed for absolute to make it solved. 
+- Unordered List items was used at the beginnig to describe goals but it was affecting 
 
 - Here I have to say that I tested my page in following brawsers: Chrome, Firefox and Safari.
 - The page is responsive for different scrren sizes tested using devtools device toolbar. 
