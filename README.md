@@ -10,7 +10,7 @@ You can find a live demo simply [here](https://zanettiprado.github.io/after-read
 - Individuals who are enthusiastic about reading.
 - People who enjoy reading but do not have enought time to do so and wish to motivate themselves to being reading.
 - People that want to start a new activity or hobby.
-## User stories
+## User Stories
 ### First Time Visitor Goals
 - As a first-time visitor, I want to easily understand the main purpose of the website and learn more about the club. 
 - As a first-time visitor, I want to be able to easily navigate throughout the pages to easily find the content.
@@ -21,7 +21,7 @@ You can find a live demo simply [here](https://zanettiprado.github.io/after-read
 - As a returning visitor to the book club website, I want to invite friends and family to join the club, so we can share our love of reading and participate in meaningful discussions together.
 - As a returning visitor to the book club website I want to see if the have updates about the next sessions and if the place has change 
 
-### As A Frequent visitor 
+### As A Frequent Visitor 
 - As a frequent visitor to the book club website, I want to connect with other members and discuss books online, so I can engage with the club community even when I can't attend meetings in person.
 - As a frequent visitor to the book club website I want to bring new ideias and help to find more people interessed in the community 
 - As a frequent visitor to the book club website I want to follow up in new donations book page to see if I can help people starting with this hobby. 
@@ -66,7 +66,8 @@ We have some books available for people to collect during our weekly meetings. T
 
 
 ### Join Us
-To express interest in our weekly meetings, members have to fill out a form indicating whether they want to join for reading or to meet new people with the same passion. The form requires name, last name, email address, age, and purpose for joining.
+To express interest in our weekly meetings, members have to fill out a form indicating whether they want to join for reading or to meet new people with the same passion. The form requires name, last name, email address, age and purpose for joining.
+
 ![join us](documentation/join-us-view.PNG)
 
 ### Footer 
@@ -126,10 +127,13 @@ When using Safari browser for mobile, the navigation is covered by the backgroud
 
 Blue represents calmness, serenity, and stability. It's associated with the ocean, sky, and water which can create a relaxing environment for readers. It can also help reduce eye strain and fatigue. Incorporating blue into a reading space can be as simple as using blue-hued light bulbs or adding blue-colored accents to the decor. This is the main reason when you open the website the first color you find is blue. I used also light grey to contrast with the blue and you can find a bit of orange in few borders. 
 
+# Typography and Icons 
+The fonts were extract from [Google Fonts](https://fonts.google.com/) I used Assistant and Corter one. Icons from [Fontsawesome](https://fontawesome.com/)
 
 
-## Deployment 
-- The website was created in GitHub using GitPod tools 
 
-## Credits 
+# Deployment 
+The website was created in GitHub using GitPod tools accessing the Code Institute 
+
+# Credits 
 All images in this page were taken in [freepik](https://www.freepik.com/) 
