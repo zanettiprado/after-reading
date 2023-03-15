@@ -32,30 +32,38 @@ You can find a live demo simply [here](https://zanettiprado.github.io/after-read
 # Design 
 
 ## Features
+#
 ### Navigation
 At the top of the page the navigation shows a clickable AFTER READING BOOK CLUB also other 3 options to navigate throughout the website:
 ![Navigation](documentation/readme-images/nav-bar.PNG)
 - Home: index.html [home](https://zanettiprado.github.io/after-reading-book-club/index.html)
 - Donations: donations.html [Donations](https://zanettiprado.github.io/after-reading-book-club/index.html)
-- Join Us: join-us.html [Joim-us](https://zanettiprado.github.io/after-reading-book-club/index.html) 
+- Join Us: join-us.html [Joim us](https://zanettiprado.github.io/after-reading-book-club/index.html) 
+# 
 
+## Index 
 ### Header 
-The header was created using a hero image a pile of books and a cover test sayint "Reading strengthens your brain, Join us". The cover text contrasts with the Hero image
+The header was created using a Hero Image a pile of books and a cover text saying "Reading strengthens your brain, Join us". The cover text contrasts with the Hero image
+
+ ![Hero image](documentation/readme-images/hero-image-and-nav-bar.PNG)
+
 
 ### About Us and Our Mission
-After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community.
+After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community.![About us and our mission](documentation/readme-images/about-us-and-our-mission.PNG)
+
 
 ### Goals and Hangouts
 The club seeks to meet new people, share experiences of reading, and choose books that expose members to new ideas, genres, and writing styles. They aim to cultivate a reading habit and encourage members to read more regularly. The club meets every Saturday at 9am at the Hilton Dublin on Charlemont Pl in Saint Kevin's. During meetings, members discuss a carefully selected book of the week, share their thoughts and insights, and vote on the next book to read. The club values the power of literature to enrich lives and welcomes all to join.
+![Goals and Hangouts](documentation/readme-images/our-goals.PNG)
 
 ### Donations 
-We have some books available for people to collect during our weekly meetings. These books are for anyone who loves reading or wants to start the activity.
+We have some books available for people to collect during our weekly meetings. These books are for anyone who loves reading or wants to start the activity.![donations](documentation/readme-images/donations-oage.PNG)
 
 ### Join Us
-To express interest in our weekly meetings, members have to fill out a form indicating whether they want to join for reading or to meet new people with the same passion. The form requires name, last name, email address, age, and purpose for joining.
+To express interest in our weekly meetings, members have to fill out a form indicating whether they want to join for reading or to meet new people with the same passion. The form requires name, last name, email address, age, and purpose for joining.![join us](documentation/readme-images/join-us-view.PNG)
 
 ### Footer 
-You find the Social Medias just clicking in the links and also credits the website. 
+You find the Social Medias just clicking in the links and also credits the website. ![footer](documentation/footer-view.PNG)
 
 ## Testing 
 - Here I have to say that I tested my page in following brawsers: Chrome, Firefox and Safari.
