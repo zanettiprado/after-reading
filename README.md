@@ -1,7 +1,36 @@
 # After Reading Book Club    
 After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![website](assets/images/readme-images/am-I-responsive.png)
 
-## Features
+# Live Demo
+You can find a live demo simply [here](https://zanettiprado.github.io/after-reading-book-club/)
+
+
+# User Experience (UX)
+## Ideal user for Book Club 
+- Individuals who are enthusiastic about reading.
+- People who enjoy reading but do not have enought time to do so and wish to motivate themselves to being reading.
+- People that want to start a new activity or hobby.
+## User stories
+### First Time Visitor Goals
+- As a first-time visitor, I want to easily understand the main purpose of the website and learn more about the club. 
+- As a first-time visitor, I want to be able to easily navigate throughout the pages to easily find the content.
+- As a first-time visitor, I want to learn about the community and see if I can be a part of the club by matching my expectations with what the website presents me.
+
+### As A Returning Visitor
+- As a returning visitor to the book club website I want to see what book they have read in the mean time
+- As a returning visitor to the book club website, I want to invite friends and family to join the club, so we can share our love of reading and participate in meaningful discussions together.
+- As a returning visitor to the book club website I want to see if the have updates about the next sessions and if the place has change 
+
+### As A Frequent visitor 
+- As a frequent visitor to the book club website, I want to connect with other members and discuss books online, so I can engage with the club community even when I can't attend meetings in person.
+- As a frequent visitor to the book club website I want to bring new ideias and help to find more people interessed in the community 
+- As a frequent visitor to the book club website I want to follow up in new donations book page to see if I can help people starting with this hobby. 
+
+# Language used 
+- HTML
+- CSS
+
+# Features
 ### Navigation
 At the top of the page the navigation shows a clickable AFTER READING BOOK CLUB also other 3 options to navigate throughout the website:
 - Home: index.html
