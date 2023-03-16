@@ -1,8 +1,8 @@
 # After Reading Book Club    
-After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![website](documentation/readme-images/am-I-responsive.png)
+After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![website responsive](documentation/am-I-responsive.png)
 
 # Live Demo
-You can find a live demo simply [here](https://zanettiprado.github.io/after-reading-book-club/)
+You can find a live demo [here](https://zanettiprado.github.io/after-reading-book-club/)
 
 
 # User Experience (UX)
@@ -60,18 +60,24 @@ The club seeks to meet new people, share experiences of reading, and choose book
 
 
 
-### Donations 
+## Donations 
 We have some books available for people to collect during our weekly meetings. These books are for anyone who loves reading or wants to start the activity. ![Donations](documentation/donations-oage.PNG)
 
+This page will be updated weekly showing books we have read already and donating them to new participantes if they want get it as incentive to srtart reading. 
 
 
-### Join Us
+
+## Join Us
 To express interest in our weekly meetings, members have to fill out a form indicating whether they want to join for reading or to meet new people with the same passion. The form requires name, last name, email address, age and purpose for joining.
 
 ![join us](documentation/join-us-view.PNG)
+After becoming a member they no longer need to send form to show up our meetings. Just checking the local and time of events in the index page. 
 
-### Footer 
-You find the Social Medias just clicking in the links and also credits of this website. ![footer](documentation/footer-view.PNG)
+## Footer 
+Footer will be present in all pages like navigantion bar will be as well. You find the Social Medias just clicking in the links and also credits of this website. ![footer](documentation/footer-view.PNG)
+
+## Features Left to Implement
+We plan to develop a page on this platform in the future where members of the book club can interact and engage in discussions similar to a forum. This will enable members to stay connected with each other and even allow non-members who are interested in joining the book club to participate in the discussions.
 
 
 
@@ -89,14 +95,14 @@ W3C Markup Validator and W3C CSS Validator Services were used to validate each p
  - Markups Validation Service - [Test here](https://validator.w3.org/#validate_by_input)
  - CSS Validation Service - [Test here](https://jigsaw.w3.org/css-validator/)
 
- * Index 
+ * Index Validation Service
  ![Index Test](documentation/index-check-w3c.PNG) 
- * Donations 
+ * Donations Validation Service
  ![Donations Test](documentation/donations-check-w3c.PNG)
- * Join us 
+ * Join us Validation Service
  ![Join Us test](documentation/join-us-check-w3c.PNG)
- * Css 
- ![CSS Test](documentation/css-w3c-test.PNG)
+ * Css Validation Service
+ ![CSS Test](documentation/css-validation-2.PNG)
 
 ## Further testing 
 * The website is resposive and was tested for the following Viewports
@@ -112,11 +118,11 @@ W3C Markup Validator and W3C CSS Validator Services were used to validate each p
 # Bugs 
 ## Known bugs 
 - For some mobiles the visibility of the form can be affected but still working.  
-- A white gap can be seen to the right of the background image affecting the navigation bar but can still being clicked. 
+- A white gap can be seen to the right of the background image affecting visualization of the form but user still can sending their information using the page. 
 
 ## Fixed bugs
 - After first deployment images were not loading correctly and the path was changed for absolute to make it solved. 
-- Unordered List items was used at the beginnig to describe goals but it was affecting user understanding and it was changed for a text using paragraph
+- Unordered List items was used at the beginnig to describe goals but it was affecting user understanding and it was changed for a text using paragraph.
 
 # Compatibility 
 The website displays correctly across different browsers and screen sizes. It was tested for Chrome Mozilla Firefox, Safari and Edge. 
@@ -133,7 +139,14 @@ The fonts were extract from [Google Fonts](https://fonts.google.com/) I used Ass
 
 
 # Deployment 
-The website was created in GitHub using GitPod tools accessing the Code Institute 
+The website was created in GitHub using GitPod tools and the steps to deploy are as follows:
+* In the GitHub repository select zanettiprado/after-reading-book-club.
+* Navigate to the Settings tab.
+* On the left side menu select Pages. 
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 
 # Credits 
-All images in this page were taken in [freepik](https://www.freepik.com/) 
+- All images in this page were taken in [freepik](https://www.freepik.com/) 
+- This website was written by me for the first milestone project of Code Institute. 
