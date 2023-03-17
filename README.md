@@ -29,18 +29,18 @@ You can find a live demo [here](https://zanettiprado.github.io/after-reading-boo
 # Language used 
 - HTML
 - CSS
-# Design 
 
-## Features
+# Features
 - Responsive for all devices sizes 
-#
+
+##
 ### Navigation
 At the top of the page the navigation shows a clickable AFTER READING BOOK CLUB also other 3 options to navigate throughout the website:
 ![Navigation bar](documentation/nav-bar.PNG)
 - Home: index.html [home](https://zanettiprado.github.io/after-reading-book-club/index.html)
 - Donations: donations.html [Donations](https://zanettiprado.github.io/after-reading-book-club/index.html)
 - Join Us: join-us.html [Joim us](https://zanettiprado.github.io/after-reading-book-club/index.html) 
-# 
+
 
 ## Index 
 ### Header 
@@ -128,12 +128,12 @@ W3C Markup Validator and W3C CSS Validator Services were used to validate each p
 The website displays correctly across different browsers and screen sizes. It was tested for Chrome Mozilla Firefox, Safari and Edge. 
 
 When using Safari browser for mobile, the navigation is covered by the backgroud but it does not affect the user experience since logo still being clickable
-
-# Color Scheme 
+# Design 
+## Color Scheme 
 
 Blue represents calmness, serenity, and stability. It's associated with the ocean, sky, and water which can create a relaxing environment for readers. It can also help reduce eye strain and fatigue. Incorporating blue into a reading space can be as simple as using blue-hued light bulbs or adding blue-colored accents to the decor. This is the main reason when you open the website the first color you find is blue. I used also light grey to contrast with the blue and you can find a bit of orange in few borders. 
 
-# Typography and Icons 
+## Typography and Icons 
 The fonts were extract from [Google Fonts](https://fonts.google.com/) I used Assistant and Corter one. Icons from [Fontsawesome](https://fontawesome.com/)
 
 
