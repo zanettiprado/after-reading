@@ -1,5 +1,5 @@
 # After Reading Book Club    
-After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![website responsive](documentation/am-I-responsive.png)
+After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![am i responsive page](documentation/am-i-responsive-page.png))
 
 # Live Demo
 You can find a live demo [here](https://zanettiprado.github.io/after-reading-book-club/)
@@ -50,7 +50,7 @@ The header was created using a Hero Image a pile of books and a cover text sayin
 
 
 ### About Us and Our Mission
-After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community.![About us and our mission](documentation/about-us-and-our-mission.PNG)
+After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community.![About us and Our Mission](documentation/about-us-and-our-mission.PNG)
 
 
 
@@ -61,7 +61,7 @@ The club seeks to meet new people, share experiences of reading, and choose book
 
 
 ## Donations 
-We have some books available for people to collect during our weekly meetings. These books are for anyone who loves reading or wants to start the activity. ![Donations](documentation/donations-oage.PNG)
+We have some books available for people to collect during our weekly meetings. These books are for anyone who loves reading or wants to start the activity. ![Donations Page](documentation/donations-page.PNG)
 
 This page will be updated weekly showing books we have read already and donating them to new participantes if they want get it as incentive to srtart reading. 
 
@@ -70,11 +70,11 @@ This page will be updated weekly showing books we have read already and donating
 ## Join Us
 To express interest in our weekly meetings, members have to fill out a form indicating whether they want to join for reading or to meet new people with the same passion. The form requires name, last name, email address, age and purpose for joining.
 
-![join us](documentation/join-us-view.PNG)
+![join us Page](documentation/join-us-view.PNG)
 After becoming a member they no longer need to send form to show up our meetings. Just checking the local and time of events in the index page. 
 
 ## Footer 
-Footer will be present in all pages like navigantion bar will be as well. You find the Social Medias just clicking in the links and also credits of this website. ![footer](documentation/footer-view.PNG)
+Footer will be present in all pages like navigantion bar will be as well. You find the Social Medias just clicking in the links and also credits of this website. ![Footer](documentation/footer-view.PNG)
 
 ## Features Left to Implement
 We plan to develop a page on this platform in the future where members of the book club can interact and engage in discussions similar to a forum. This will enable members to stay connected with each other and even allow non-members who are interested in joining the book club to participate in the discussions.
