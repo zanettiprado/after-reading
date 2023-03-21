@@ -1,14 +1,13 @@
 # After Reading Book Club    
-After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![am i responsive page](documentation/am-i-responsive-page.png))
+After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community. ![am i responsive page](documentation/am-i-responsive-page.png)
 
 # Live Demo
 You can find a live demo [here](https://zanettiprado.github.io/after-reading-book-club/)
 
-
 # User Experience (UX)
 ## Ideal user for Book Club 
 - Individuals who are enthusiastic about reading.
-- People who enjoy reading but do not have enought time to do so and wish to motivate themselves to being reading.
+- People who enjoy reading but do not have enough time to do so and wish to motivate themselves to being reading.
 - People that want to start a new activity or hobby.
 ## User Stories
 ### First Time Visitor Goals
@@ -23,7 +22,7 @@ You can find a live demo [here](https://zanettiprado.github.io/after-reading-boo
 
 ### As A Frequent Visitor 
 - As a frequent visitor to the book club website, I want to connect with other members and discuss books online, so I can engage with the club community even when I can't attend meetings in person.
-- As a frequent visitor to the book club website I want to bring new ideias and help to find more people interessed in the community 
+- As a frequent visitor to the book club website I want to bring new ideas and help to find more people interessed in the community 
 - As a frequent visitor to the book club website I want to follow up in new donations book page to see if I can help people starting with this hobby. 
 
 # Language used 
@@ -37,35 +36,25 @@ You can find a live demo [here](https://zanettiprado.github.io/after-reading-boo
 ### Navigation
 At the top of the page the navigation shows a clickable AFTER READING BOOK CLUB also other 3 options to navigate throughout the website:
 ![Navigation bar](documentation/nav-bar.PNG)
-- Home: index.html [home](https://zanettiprado.github.io/after-reading-book-club/index.html)
-- Donations: donations.html [Donations](https://zanettiprado.github.io/after-reading-book-club/index.html)
-- Join Us: join-us.html [Joim us](https://zanettiprado.github.io/after-reading-book-club/index.html) 
+- Home: [home](https://zanettiprado.github.io/after-reading-book-club/index.html)
+- Donations: [Donations](https://zanettiprado.github.io/after-reading-book-club/donations.html)
+- Join Us: [Join us](https://zanettiprado.github.io/after-reading-book-club/join-us.html) 
 
 
 ## Index 
 ### Header 
 The header was created using a Hero Image a pile of books and a cover text saying "Reading strengthens your brain, Join us". The cover text contrasts with the Hero image and brings blue color as the main theme of the website and we will talk about it in the color scheme![Hero Image](documentation/hero-image-and-nav-bar.PNG)
 
- 
-
-
 ### About Us and Our Mission
 After Reading Book Club is a welcoming community of passionate readers who meet weekly to discuss books and connect with fellow book lovers. Our mission is to promote a love of literature, encourage critical thinking, increase imagination and creativity, and cultivate a reading habit in a positive and nurturing environment. We meet once a week to discuss the book of the week, share our thoughts, experiences, and insights on the book, and vote on the next book we will read and discuss. We welcome anyone who loves to read, and we're committed to exploring the potential of books to inspire, challenge, and transform us together as a community.![About us and Our Mission](documentation/about-us-and-our-mission.PNG)
 
-
-
 ### Goals and Hangouts
-The club seeks to meet new people, share experiences of reading, and choose books that expose members to new ideas, genres, and writing styles. They aim to cultivate a reading habit and encourage members to read more regularly. The club meets every Saturday at 9am at the Hilton Dublin on Charlemont Pl in Saint Kevin's. During meetings, members discuss a carefully selected book of the week, share their thoughts and insights, and vote on the next book to read. The club values the power of literature to enrich lives and welcomes all to join.![Goals and Hangouts](documentation/our-goals.PNG)
-
-
-
+The club seeks to meet new people, share experiences of reading, and choose books that expose members to new ideas, genres, and writing styles. They aim to cultivate a reading habit and encourage members to read more regularly. The club meets every Saturday at 9am at the Hilton Dublin on Charlemont Place in Saint Kevin's. During meetings, members discuss a carefully selected book of the week, share their thoughts and insights, and vote on the next book to read. The club values the power of literature to enrich lives and welcomes all to join.![Goals and Hangouts](documentation/our-goals.PNG)
 
 ## Donations 
 We have some books available for people to collect during our weekly meetings. These books are for anyone who loves reading or wants to start the activity. ![Donations Page](documentation/donations-page.PNG)
 
-This page will be updated weekly showing books we have read already and donating them to new participantes if they want get it as incentive to srtart reading. 
-
-
+This page will be updated weekly showing books we have read already and donating them to new participants if they want get it as incentive to srtart reading. 
 
 ## Join Us
 To express interest in our weekly meetings, members have to fill out a form indicating whether they want to join for reading or to meet new people with the same passion. The form requires name, last name, email address, age and purpose for joining.
@@ -78,8 +67,6 @@ Footer will be present in all pages like navigantion bar will be as well. You fi
 
 ## Features Left to Implement
 We plan to develop a page on this platform in the future where members of the book club can interact and engage in discussions similar to a forum. This will enable members to stay connected with each other and even allow non-members who are interested in joining the book club to participate in the discussions.
-
-
 
 # Testing 
 ## Accessibility
@@ -136,8 +123,6 @@ Blue represents calmness, serenity, and stability. It's associated with the ocea
 ## Typography and Icons 
 The fonts were extract from [Google Fonts](https://fonts.google.com/) I used Assistant and Corter one. Icons from [Fontsawesome](https://fontawesome.com/)
 
-
-
 # Deployment 
 The website was created in GitHub using GitPod tools and the steps to deploy are as follows:
 * In the GitHub repository select zanettiprado/after-reading-book-club.
@@ -145,7 +130,6 @@ The website was created in GitHub using GitPod tools and the steps to deploy are
 * On the left side menu select Pages. 
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
 
 # Credits 
 - All images in this page were taken in [freepik](https://www.freepik.com/) 
